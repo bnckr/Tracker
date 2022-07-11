@@ -23,9 +23,9 @@ export default defineComponent({
   computed: {
     textoBotao () {
       if (this.modoEscuroAtivo) {
-        return 'Desativar modo escuro'
+        return 'Modo Normal'
       }
-      return 'Ativar modo escuro'
+      return 'Modo Escuro'
     }
   },
   methods: {
